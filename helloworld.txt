@@ -1,0 +1,46 @@
+Git Shell is what we used to create the folders, redirect to another folder and create files
+Some of the commands are listed as :
+cd /   - This allowed us to move to another folder/root
+	ex : cd users/student/documents
+	moved us to users/student/documents/
+	cd ara_zedrick
+	moved us to users/student/documents/ara_zedrick
+cd ..  - This allowed us to move up a folder
+Mkdir <folder>  - allowed us to make folders
+Touch <filename - allowed us to create files
+ls - list directories
+
+CLI stands for Command Line Interface
+- means of interacting with a computer in the form of successive lines of text
+GUI stands for - User Interface
+- means of interacting with a computer using visual icons
+
+3 Levels of Knowing
+1. Knowing and understanding
+2. Teaching and reinforcing
+3. Grocking - to understand intuitively
+
+directory - folder
+
+Tools
+Git Shell
+Github
+Sublime text
+
+Git Shell commands (CLI // Terminal)
+ls - list directories
+cd - change into directories
+.. - move up
+cd / - goes to computer root folder (c drive)
+mkdir - create a directory
+touch - create a file
+
+File structure
+Root Directory
+Files
+	|
+		Sub Folder
+		Files
+			|
+			Files
+			Sub Folder
