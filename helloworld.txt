@@ -13,6 +13,8 @@ Touch <filename - allowed us to create files
 ls - list directories
 
 ======================================================================
+8/8/16 Day 1
+
 
 CLI // Command Line Interface
 - means of interacting with a computer in the form of successive lines of text
@@ -51,7 +53,9 @@ cd - change into directories
 .. - move up
 cd / - goes to computer root folder (c drive)
 mkdir - create a directory
-touch - create a file
+touch <filename> - create a file
+
+======================================================================8/10/16 Day 2
 
 Git Commands
 
@@ -60,3 +64,35 @@ git status - check status of project
 "clean" - no red in status
 git add <filename> - used to upload folders into Git
 git commit -m 'this is my first commit for notes'
+git push
+
+======================================================================
+8/12/16 Day 3 (Quiz Day!)
+
+Review
+-m means message in "git commit -m 'text'"
+Local to Remote Github - > git push
+
+Ex:
+			Github Remote <-------
+Internet~~~~~~~~~~~~~~~~~~~~~~~  |
+Working directory - text.txt     | Push
+Git add - Staging                |
+Git commit - Local Git-----------
+
+Desktop and Mobile - 2 Types of environments
+
+2 Traits of a Developer
+	1)Problem Solver
+	2)Ownership
+
+List 3 tools used for web development
+	1) Sublime Text
+	2) Github
+	3) Git Shell
+
+What does LS do?
+List files/directories
+
+Touch?
+create txt files
