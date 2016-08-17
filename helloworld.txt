@@ -12,7 +12,7 @@ Mkdir <folder>  - allowed us to make folders
 Touch <filename - allowed us to create files
 ls - list directories
 
-======================================================================
+=============================================================
 8/8/16 Day 1
 
 
@@ -55,7 +55,7 @@ cd / - goes to computer root folder (c drive)
 mkdir - create a directory
 touch <filename> - create a file
 
-======================================================================8/10/16 Day 2
+=============================================================8/10/16 Day 2
 
 Git Commands
 
@@ -66,7 +66,7 @@ git add <filename> - used to upload folders into Git
 git commit -m 'this is my first commit for notes'
 git push
 
-======================================================================
+=============================================================
 8/12/16 Day 3 (Quiz Day!)
 
 Review
@@ -96,3 +96,56 @@ List files/directories
 
 Touch?
 create txt files
+=============================================================
+8/15/16 Day 4
+
+Programming Language
+
+ex :
+1) Java
+2) C++
+
+</a> // closinmg tag
+<p> </p> // paragraph element
+<header> </header> // navigation, logo
+<b></b> // bold
+<footer> </footer> // copyright
+<div> </div>
+<a> </a>
+<img/>
+
+Attributes
+<img src = "http://something.com/myimage.jpg"/>
+	source
+
+<!-- This is my first comment -->
+
+=============================================================
+8/17 Day 5 (Short Day)
+
+UI - User Interface // Visuals
+
+UX - User Experience // how user sees your product and enjoys (Visual Appeal) 
+html(Bowl and Spoon, structure, css (Shape of the bowl/spoon), java script (Action of which you eat the cereal)
+
+List
+A
+I
+<UL> <Li> Unorder List | List Item \\ Bullet points (arrows, points etc)
+<OL> <Li> </Li> </OL> Order List | List Item \\ you can put divs
+<NAV></NAV> // Navigation
+
+<div aside> 
+	<h3> title 
+	<NAV> 
+		<UL>
+			<Li> 
+				<a href=" ">
+				Tutke
+					</a>
+				</Li>
+			</UL>
+		</NAV>
+	</div><!--End of Aside Div-->
+
+href 
