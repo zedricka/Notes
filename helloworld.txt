@@ -149,3 +149,28 @@ I
 	</div><!--End of Aside Div-->
 
 href 
+
+============================================================
+8/22/16 Day 6
+
+Revised Notes
+
+/// HTML Structure ///
+
+Tag: the html syntax
+	<a> // open tag
+	</a> // closing tag
+
+Elements: type of HTML tags
+	<p></p> // paragraph element
+
+Two Types of Elements
+	<div></div> // block element
+	<span></span> // inline elements
+
+[[[ HTML PAGE STRUCTURE ]]]
+All html pages must incldue:
+
+<1DOCTYPE html> -- defines document type
+<html lang="en"> -- defines root of html document
+	<head></head> -- defines information about the network
