@@ -202,3 +202,53 @@ class is a attribute of a div
 ID=#First
 Class= .Container
 Can't link to classes (Doesn't look pretty)
+
+HTML // Hypertext Markup Language
+
+===============================================================
+8/26/16 Day 7
+
+We made a bob_the_builder folder in our root folder
+We put a index.html inside of it
+
+View -> Layout -> Split screens :D
+
+Type HTML and press Tab!
+lang is a attribute <html lang="en"> (anything green)
+
+. gives class
+Pressing TAB will write the tags for you
+ex : a (Press tab) will come out as <a href="">
+<table></table> rows and columns
+<tr></tr> rows
+<td></td> columns
+
+===============================================================
+8/31/16 Day 8
+CSS
+
+property:value;
+
+
+selector (h1/header/etc)
+
+<style></style> always close with {}
+	Write
+	Like
+	This
+
+Remember to save you idiot before localhost:8000
+
+
+What we did:
+Create an external stylesheet
+create a new folder :CSS
+Create a file : styles.css
+
+# = id
+
+ffffff = white
+000000 = black
+
+hex color code : set of letters and numbers to define a color
+rgba() : transparency 
