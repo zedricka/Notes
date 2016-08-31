@@ -55,7 +55,8 @@ cd / - goes to computer root folder (c drive)
 mkdir - create a directory
 touch <filename> - create a file
 
-=============================================================8/10/16 Day 2
+=============================================================
+8/10/16 Day 2
 
 Git Commands
 
@@ -173,4 +174,31 @@ All html pages must incldue:
 
 <1DOCTYPE html> -- defines document type
 <html lang="en"> -- defines root of html document
-	<head></head> -- defines information about the network
+	<head></head> -- defines information about document
+	<body></body> -- definies documents body (content)
+
+python --version
+Windows x86 MSI installer
+Localhost:8000
+1938whs
+python -m SimpleHTTPServer
+
+=============================================================
+8/24/16 Day 7
+
+ID and Classes are elements
+div class "container
+class is a attribute of a div
+	You can have multiple at once!
+	div id "???" gives ??? can only use it once
+
+<div class="Content">
+	<h2> title
+	<h6> date
+	<div class="article">
+		<h3>
+			<P>
+
+ID=#First
+Class= .Container
+Can't link to classes (Doesn't look pretty)
