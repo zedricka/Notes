@@ -252,3 +252,23 @@ ffffff = white
 
 hex color code : set of letters and numbers to define a color
 rgba() : transparency 
+======
+9/2/16 Day 9
+
+	margin: top left bottom right
+	OR
+	margin-top: 50 px
+	margin-bottom: 50 px
+	margin-left: 50 px
+	margin-right: 50 px
+
+	Used to relocate things like divs
+
+border : #px solid/dash color;
+padding : #px;
+
+One value = top left bottom right
+
+CSS website
+css-tricks.com/all-about-floats/
+bada55
