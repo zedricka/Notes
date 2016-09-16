@@ -272,3 +272,98 @@ One value = top left bottom right
 CSS website
 css-tricks.com/all-about-floats/
 bada55
+
+Examples of an MVP
+Building a full site---> creating a landing page to get sign ups or calls
+
+Design MVP : Developing UI ---> creating paper version and asking user to use
+
+Putting idea on a piece of paper and start testing it with customers: "Does this solve your problem?" How else could you use it? What other things would you like?
+
+Pitch - an entreprenuer presenting an idea verbally
+
+Elevator Pitch
+Combines the High Concept Pitch with Traction
+The major components of an elevator pitch are triction, product, team and social proof.
+
+The check your car app
+(Alarm blarring) The app is used for when you forget something in the car, using an alarm to remind you to check in it
+
+Its as easy as using an alarm app
+
+=============================================================
+9/9/16 Day 10
+Review:
+
+Link to external sheet in head
+
+Paragraph element with id first
+<p id="first"> </p> 
+
+div element with a class of wrapper
+<div class="wrapper"> </div>
+
+div class blue and article
+<div class="article blue"> </div>
+
+You can seperate classes by putting a space in between them!
+
+H1 {color:blue}
+selector {property:value}
+
+=============================================================
+9/16/16 Day 11
+
+http://kellishouts.github.io/css-properties/
+https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+http://www.cssmatic.com/border-radius
+https://css-tricks.com/almanac/selectors/a/after-and-before/
+
+Really Important CSS Concepts
+
+Project/index.html
+/CSS/styles.css
+/image
+../image/img.png
+
+../ // is a relative path
+
+Two Types of Elements
+inline element
+block element
+
+display:inline // Inline elements can have border, padding, margin, width, and height properties. However, the parent element will ignore the child elements' width, vertical padding, and margin in the layout. Also notice what happens when you have a small mobile layout (shrink your browser). This is usually not desireable.
+
+display:block // Block elements can have border, padding, margin, width, and height properties. The parent element will retain the child elements' vertical padding and margin in the layout. Elements with display:block are 100% width, unless a width is set.
+
+display:inline-block // Inline-Block elements can have border, padding, margin, width, and height properties. The parent element will retain the vertical padding and margin of the child elements in the layout. Elements with display:inline-block are the width of their content, unless the width property is set.
+
+Benefits of inline-block
+
+Using the inline-block display property for group of items, there are 3 nice things that happen with your items. If your boxes are all the same height...
+
+your items can have an automatic width
+when the items fills up the entire horizontal space, overflowing items all start lining up below automatically
+if the parent element has the property text-align:center, the elements that drop down are centered
+
+Multi-Column Layouts with the float property:
+
+The structure for a 2-column float-based layout contains:
+
+outer container: must have a .clearfix class (or a clear:both property).
+inner containers: margins and widths must not exceed total of 100%
+inner containers: box-sizing:border-box
+inner containers: float:left or float:right
+
+The box-sizing property is used to alter the default CSS box model used to calculate width and height of the elements. It is possible to use this property to emulate the behavior of browsers that do not correctly support the CSS box model specification.
+
+REMEMBER TO PUT THIS IN THE <head></head> NOT <header></header>
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Title of Whatever</title>
+		<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	</head>
+
