@@ -368,3 +368,15 @@ REMEMBER TO PUT THIS IN THE <head></head> NOT <header></header>
 	</head>
 
 CTRL+SHIFT+D
+
+
+position: relative; //RELATIONSHIP BETWEEN A PARENT AND A CHILD SO DESCRIPTIVE
+
+margin: 10px auto;
+
+git clone
+
+git remote -v // list your existing remotes in order to get the name of the remote you want to change
+
+git remote set-url origin // changes your remote's URL from SSH to HTTPS with the command
+
