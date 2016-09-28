@@ -380,3 +380,87 @@ git remote -v // list your existing remotes in order to get the name of the remo
 
 git remote set-url origin // changes your remote's URL from SSH to HTTPS with the command
 
+===============================================================
+9/28/16 Day 12
+
+Explain Responsive Design. Give an example of responsive design
+A responsive design or “responsive web design is the practice of building a website suitable to work on every device and every screen size, no matter how large or small, mobile or desktop.”
+
+One example of responsive design is Google Docs. Google Docs is available for laptops, desktops and even mobile devices like phones and works practically the same as others.
+http://learn.shayhowe.com/advanced-html-css/responsive-web-design/
+http://www.awwwards.com/50-examples-of-responsive-web-design.html
+
+Find one resource for grid based web design
+A grid based design for content
+	http://www.designer-daily.com/10-good-examples-of-grid-based-web-design-53442
+
+Explain media queries
+
+Break poitns in CSS that tell your app to change according to screensize
+"Break Points"
+To make your website responsive to different sites
+“A media query consists of an optional media type and zero or more expressions that limit the style sheets' scope by using media features, such as width, height, and color. Media queries, added in CSS3, let the presentation of content be tailored to a specific range of output devices without having to change the content itself.”	
+https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+	
+Give an example of a media query in code for medium screens
+	/* ----------- Non-Retina Screens ----------- */
+	@media screen 
+	  and (min-device-width: 1200px) 
+	  and (max-device-width: 1600px) 
+	  and (-webkit-min-device-pixel-ratio: 1) { 
+	}
+
+	/* ----------- Retina Screens ----------- */
+	@media screen 
+	  and (min-device-width: 1200px) 
+	  and (max-device-width: 1600px) 
+	  and (-webkit-min-device-pixel-ratio: 2)
+	  and (min-resolution: 192dpi) { 
+}
+https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+
+What is em in css? How do you convert px to em?
+Units of measure in CSS that adjusts to parent times 150%. Use em in responsive design and pixels on static pages
+
+In CSS, an em unit is equal to the computed font-size for the element to which the em is applied. When em units are declared on child elements that don’t have a font-size defined, they will inherit their font-size from their parent, or from another ancestor element, possibly going all the way back to the root element on the document.
+///////////////////////////////////////////////
+
+By using the equation target divided by context (usually 16 px) equals result, you can convert px to em. So if your desired font size was 30 px, you plug that into the equation (30/16)=1.875 em. This means that the font will be 1.875 times bigger than the original font size (1).
+
+Multiply by 1.5
+
+http://stackoverflow.com/questions/20906949/understanding-px-to-em-to-percentages-for-responsive-design
+http://alistapart.com/article/fluidgrids
+http://www.w3schools.com/tags/ref_pxtoemconversion.asp
+
+Give an example and explain pseudo class selectors.
+
+A pseudo-class is used to define a special state of an element.
+For example, it can be used to:
+Style an element when a user mouses over it
+Style visited and unvisited links differently
+Style an element when it gets focus
+
+hover
+before & after
+focus
+in-range
+invalid
+
+http://www.w3schools.com/css/css_pseudo_classes.asp
+
+Give an example of mobile design
+Web App designed
+	a. What makes the design an effective for mobile
+	Media Queries/Simple to use
+	b. What makes the design ineffective for mobile (what is is missing)
+	Media Queries
+
+Explain and give an example of specificity in CSS
+Used to design a special state
+
+divtest span (color:green)
+div span (color:blue)
+span (color:red)
+
+It will take the green color since its more specific!
