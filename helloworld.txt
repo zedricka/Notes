@@ -464,3 +464,113 @@ div span (color:blue)
 span (color:red)
 
 It will take the green color since its more specific!
+
+=================================================================
+Day 14 10/17/16
+
+Javascript Basics
+=> slides.com/ifang/javascriptbasics
+=> http://jsbin.com/ 
+
+Why use Javascript? What does it do for us?
+=> Makes your sites interactive
+
+Variables
+=> Variables are storage containers for various values; building blocks of code
+=> In JavaScript, we create a variable with the keyword "var", followed by the name of the variable, to indicate that we're making a variable.
+=> Examples:
+- var myName = "Bob";
+- var number = 1;
+- var booleanExample = false;
+
+=> All variables must have values of a certain data type!
+=> If you have an alphanueric sequence, like 12312JCK32, since it is not a number or a boolean, it is a string. And if something is a string, it must be in Quotes
+=> ","" are both fine, however be consistent with your use of quotes; do not switch between single and double
+=> Spaces count as a variable
+
+Legal Variable Names
+=> Must follow certain rules (Don't do the following!)
+1. Begin variable names with a number. (var 53cats = "there are fifty three cats";)
+2. Use special symbols or mathematical operators (+,-,$,@,#,&,|,.{},(),,[],;,,:)
+3. Have spaces in variable names (var the cat = "bob";)
+
+When you console.log(); something you can see how the computer sees the code
+
+Example:
+var firstName = "Jon";
+var lastName = "Tan";
+
+console.log(firstName);
+
+Console - "Jon"
+
+console.log("Jon"+" "+"Tan"); OR
+console.log(firstName + " " + lastName);
+
+Console - "Jon Tan"
+
+console.log(dylan);
+
+Console - Error! (not defined)
+
+console.log (12 - 6) ;
+
+Console - 6
+
+=> Variable names don't need strings
+=> Sentences do!
+
+Conditional Statements
+=> Very intuitive
+=> Conditional statements are blocks of code that say, "if  (some condition evaluates to true), then do some code"
+=> What does the code below do?
+
+var cat = "Mr. Whiskers";
+
+if (cat == "Reynald") {
+    console.log("died in a tragic car accident");
+} else if (cat == "Sammy") {
+    console.log("killed in a violent fight");
+} else if (cat == "Mikey") {
+    console.log("went up in flames in a gas station explosion");
+} else {
+    console.log("was gluttonous, and choked on a fish bone");
+}
+
+Console: "was gluttonous, and choked on a fish bone"
+
+= VS ==
+=> = is assignment
+- we use = to assign values to variables
+- ex. var x = 5;
+=> == checks for the equality of two expressions
+
+var x = 3;
+var y = 4;
+console.log (x == y);
+Console - false
+
+var x = y
+console.log(x);
+Console - 4
+
+Boolean Operators
+=> == is an example of a Boolean operator
+=> Other Boolean operators:
+- !== not equals
+- > greater than 
+- < less than 
+- >= greater than or equal to 
+- <= less than or equal to 
+=> They're called Boolean operators because they're used to evaluate if expressions are true or false
+
+Logical Operators
+=> && - and 
+=> || - or
+=> ! - not; put in front of expressions to negate them
+=> Combine with Boolean operators to create more complex expressions 
+=> You can also nest conditional statements within each other
+
+HTML => structure
+CSS => decoraction
+Javascript => functionality
