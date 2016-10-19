@@ -26,4 +26,68 @@ NaN
 
 // objects
 
-var came1CaseExample = "yay"
+//function is an executed statement
+function (){
+
+}
+
+function nameOfFunction (){
+  console.log('hello i am a new function')
+}
+
+//invoking a function
+nameOfFunction();
+
+function hello (){
+  console.log('wattup');
+}
+
+hello();
+
+//parameters
+function hello (a, b) {
+    console.log(a + b);
+
+}
+
+hello (10,11);
+
+//console says 21
+
+
+function bai (c, d){
+  console.log(c - d);
+}
+
+bai (20, 10);
+
+//console says 10
+
+var subtract = bai(30, 12);
+
+console.log(subtract);
+
+//console says undefined
+
+
+// return can only be used once, any console logs after it won't work!
+function bai (c, d){
+  console.log(c - d);
+  return c + d;
+}
+
+function createGreeting (name, age){
+  if (age < 32) {
+    console.log('hello' + name);
+    return 'hello' + name
+  }else{
+    console.log('hello Mr. ' + name);
+    return 'hello Mr. ' + name;
+    return 'hello MRS. ' + name; // You cannot add another return after a return! gives you an error
+  }
+  }
+}
+
+createGreeting ('Tan', 50); 
+//console says hello Mr.Tan
+

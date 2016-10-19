@@ -471,6 +471,7 @@ Day 14 10/17/16
 Javascript Basics
 => slides.com/ifang/javascriptbasics
 => http://jsbin.com/ 
+=> http://slides.com/sgnl/js-basics#/
 
 Why use Javascript? What does it do for us?
 => Makes your sites interactive
@@ -496,6 +497,8 @@ Legal Variable Names
 
 When you console.log(); something you can see how the computer sees the code
 
+---------------------------------------------------------------
+
 Example:
 var firstName = "Jon";
 var lastName = "Tan";
@@ -517,6 +520,8 @@ console.log (12 - 6) ;
 
 Console - 6
 
+------------------------------------------------------------
+
 => Variable names don't need strings
 => Sentences do!
 
@@ -524,6 +529,8 @@ Conditional Statements
 => Very intuitive
 => Conditional statements are blocks of code that say, "if  (some condition evaluates to true), then do some code"
 => What does the code below do?
+
+---------------------------------------------------------------
 
 var cat = "Mr. Whiskers";
 
@@ -539,11 +546,15 @@ if (cat == "Reynald") {
 
 Console: "was gluttonous, and choked on a fish bone"
 
+----------------------------------------------------------------
+
 = VS ==
 => = is assignment
-- we use = to assign values to variables
-- ex. var x = 5;
+ - we use = to assign values to variables
+ - ex. var x = 5;
 => == checks for the equality of two expressions
+
+-----------------------------------------------------------------
 
 var x = 3;
 var y = 4;
@@ -554,14 +565,16 @@ var x = y
 console.log(x);
 Console - 4
 
+--------------------------------------------------------------------
+
 Boolean Operators
 => == is an example of a Boolean operator
 => Other Boolean operators:
-- !== not equals
-- > greater than 
-- < less than 
-- >= greater than or equal to 
-- <= less than or equal to 
+ - !== not equals
+ - > greater than 
+ - < less than 
+ - >= greater than or equal to 
+ - <= less than or equal to 
 => They're called Boolean operators because they're used to evaluate if expressions are true or false
 
 Logical Operators
@@ -574,3 +587,20 @@ Logical Operators
 HTML => structure
 CSS => decoraction
 Javascript => functionality
+
+=======================================================================
+Day 15 10/19/16
+
+function is an executed block
+function (){
+  
+}
+
+function nameOfFunction (){
+  
+}
+
+<!-- invoking a function -->
+nameOfFunction();
+
+install nodejs.org and install v4.6.1
