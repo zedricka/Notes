@@ -23,6 +23,7 @@ undefined
 NaN
 
 // array
+var myArray = ['one', 2, 'seven', 'batman', true]
 
 // objects
 
@@ -45,7 +46,7 @@ function hello (){
 hello();
 
 //parameters
-function hello (a, b) {
+function hello (parameter 1, parameter 2, parameter 3, ...) {
     console.log(a + b);
 
 }
@@ -91,3 +92,13 @@ function createGreeting (name, age){
 createGreeting ('Tan', 50); 
 //console says hello Mr.Tan
 
+var degreeOutside = 70;
+var numberOfClouds = 50;
+
+function isItRaining(degreeOutside, numberOfClouds){
+  if (degreeOutside > 70 && numberOfClouds > 50){
+    return console.log ('It"s raining outside!');
+  }
+}
+
+isItRaining(50, 20)

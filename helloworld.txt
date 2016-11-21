@@ -483,7 +483,7 @@ Variables
 - var myName = "Bob";
 - var number = 1;
 - var booleanExample = false;
-
+ 
 => All variables must have values of a certain data type!
 => If you have an alphanueric sequence, like 12312JCK32, since it is not a number or a boolean, it is a string. And if something is a string, it must be in Quotes
 => ","" are both fine, however be consistent with your use of quotes; do not switch between single and double
@@ -604,3 +604,4 @@ function nameOfFunction (){
 nameOfFunction();
 
 install nodejs.org and install v4.6.1
+
