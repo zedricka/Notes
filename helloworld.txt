@@ -605,3 +605,120 @@ nameOfFunction();
 
 install nodejs.org and install v4.6.1
 
+=========================================================================
+
+
+Repo (Origin) -> Master -> Solution
+
+Pull from master
+Push from solution
+
+Branch is a 2nd copy of master but in a separate place
+
+Master = best version
+Branch = Play around
+
+// git branch
+Tells you branch name
+
+// git branch (branchname)
+Creates a branch
+
+// git checkout (branchname)
+switches to branch
+
+CTRL + SHIFT + / = Short hand block comment
+
+// git checkout -b (branchname
+
+=====================================================================
+
+// Linking Javascript to HTML
+<script type="text/javascript" src="js/app.js"></script>
+
+
+A node is the generic name for any type of object in the DOM hierarchy. A node could be one of the built-in DOM elements such as document or document.body, it could be an HTML tag specified in the HTML such as <input> or <p> or it could be a text node that is created by the system to hold a block of text inside another element. So, in a nutshell, a node is any DOM object.
+
+The HTML DOM is a standard object model and programming interface for HTML. It defines:
+
+The HTML elements as objects
+The properties of all HTML elements
+The methods to access all HTML elements
+The events for all HTML elements
+In other words: The HTML DOM is a standard for how to get, change, add, or delete HTML elements.
+
+================================================
+Day ??? Feburary
+
+
+Ideas that I should NOT do:
+Campus Cleaning
+Homelessness
+Traffic App
+Weather App
+
+Ideas that I should do:
+App to find which classrooms sell food
+
+================================
+
+concatenated string
+ex
+
+	return "my first car was " + cars[0] + " and my second car was " + cars[1];
+
+================================
+
+11/8/17 Client
+
+Lanakila Meals on Wheels
+Ending Kupuna hunger, one meal at a time
+
+Our mission
+	Provide meals for seniors (disabled/retired)
+
+	Started a lunch wagon near Aala Park in 1971
+
+	Largest only island-wide home delivered meal provider
+	Over 2.5k kupuna receive over 400k mealseach year
+
+	Parther with about 1k volunteers each year
+
+Problem
+	Lower income, technology challenges, no cellphone/smartphone
+	Volunteers too! (Some of them are retiree, some of them have no smartphones)
+
+**Our Needs**
+	Able to communicate urgent messages to large numbers of people.
+		Natural Disasters/Emergency Closures
+		Food Recalls
+		Delays due to traffic
+
+**Things to Consider**
+	No smart phones
+		Text mesages and robocalling to landlines preferred
+
+~~~~~FAST QUICK COMMUNICATION~~~~~
+
+Our Needs
+	To be able to have a platform to manage volunteers
+		Volunteer Time-Off Notices
+		Volunter Satisfaction Surveys/Feedback
+		Annual Training/Policies and Procedures
+		Providing Other Volunteer Opportunities and Resources
+
+Things to Consider
+	Volunteer schedules and demographic information is managed in ServTracker so volunteer information will be in two different places.
+
+	-No public interface, can't communicate with us
+	-Volunteer telling the staff (face to face, text, post it)
+	-Web based currently
+	-Registered as a client
+
+	Able to push out a message (or voice message) to over 3k people
+
+
+Possible Ideas
+Different Profiling = Different Access
+Read receipt / Confirmation
+Have it all ine one place
